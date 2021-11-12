@@ -1,0 +1,52 @@
+name: app
+description: Sharif ICT MPM
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^7.3.3
+  shared_preferences: ^2.0.8
+  get_it: ^7.2.0
+  carousel_pro_nullsafety: ^1.0.2
+  fluttertoast: ^8.0.8
+  equatable: ^2.0.3
+  dio: ^4.0.1
+  qr_code_scanner: ^0.6.1
+  flutter_svg: ^0.23.0+1
+  material_design_icons_flutter: ^5.0.6295
+  shamsi_date: ^1.0.0
+  signalr_core: ^1.1.1
+  http: ^0.13.4
+  fl_chart: ^0.40.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Kalameh
+      fonts:
+        - asset: assets/fonts/Kalameh-Regular.ttf
+    - family: IRANYekan
+      fonts:
+        - asset: assets/fonts/IRANYekanRegularFaNum.ttf
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Medium.ttf

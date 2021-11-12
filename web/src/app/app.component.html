@@ -1,0 +1,4 @@
+<img *ngIf="!isText" src={{imageUrl}} width="400" height="400" class="center"/>
+
+<div *ngIf="isText && isEntry" class="text-center">Welcome to the company dear colleague.</div>
+<div *ngIf="isText && !isEntry" class="text-center">GoodBye !</div>
